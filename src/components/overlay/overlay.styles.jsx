@@ -7,7 +7,7 @@ export const OverlayWrapper = styled.div`
   height: calc(100vh);
   z-index: 99;
   width: 100%;
-  background: rgb(153 153 153 / 30%);
+  background: rgb(153 153 153 / 50%);
   transition: all 0.2s;
   &.hidden {
     visibility: hidden;
