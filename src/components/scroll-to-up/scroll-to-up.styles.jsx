@@ -8,7 +8,7 @@ export const ScrollToTopWrapper = styled(Icon)`
   opacity: 0;
   cursor: pointer;
   position: fixed;
-  top: 90vh;
+  top: 90%;
   right: 1px;
   z-index: 98;
   fill: #37897b;
