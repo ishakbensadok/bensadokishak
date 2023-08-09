@@ -1,5 +1,5 @@
-import Section from '../../components/section/section.component';
 import mePng from '../../assets/me.png';
+import resume from '../../assets/resume.pdf';
 
 import {
   AboutContent,
@@ -32,7 +32,7 @@ const About = () => {
           collaborations in the exciting world of web development.
         </Description>
 
-        <ResumeLink href=''>
+        <ResumeLink href={`${resume}`}>
           <Arrow> &darr;</Arrow>
           <span>resume</span>
         </ResumeLink>
