@@ -39,12 +39,9 @@ const Project = () => {
     mobileImgSmall,
     gitHubLink,
     technologies,
+    details,
   } = projectInfo;
   // console.log(projectInfo);
-
-  const defaultText = `${title}  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
-    natus eligendi esse ab exercitationem veritatis, fugit suscipit explicabo
-    magni asperiores autem sint, ducimus omnis placeat ipsa ipsum ut dolor.`;
 
   return (
     projectInfo && (
@@ -73,7 +70,7 @@ const Project = () => {
               ))}
             </TechnologiesContainer>
 
-            <TextEffect defaultText={defaultText} />
+            <TextEffect defaultText={details} />
           </ProjectDetails>
         </ProjectContent>
 
