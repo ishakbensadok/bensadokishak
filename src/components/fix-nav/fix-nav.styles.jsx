@@ -52,7 +52,7 @@ export const FixMenu = styled.div`
   top: 50%;
   transform: translate(-100%, -50%);
   left: 0;
-  width: 15px;
+  width: 20px;
   height: 90px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
