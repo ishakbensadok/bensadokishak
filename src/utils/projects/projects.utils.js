@@ -28,6 +28,12 @@ import desPng4 from '../../assets/TrailFlix.png';
 import mobPng4Small from '../../assets/TrailFlix-Phone-small.png';
 import desPng4Small from '../../assets/TrailFlix-small.png';
 
+import mobPng5 from '../../assets/portfolio-phone.png';
+import desPng5 from '../../assets/portfolio.png';
+
+import mobPng5Small from '../../assets/portfolio-phone-small.png';
+import desPng5Small from '../../assets/portfolio-small.png';
+
 import Icon from '../../components/icon/icon.component';
 
 export const PROJECTS_INFORMATION = [
@@ -43,6 +49,8 @@ export const PROJECTS_INFORMATION = [
     year: 2022,
     websiteLink: 'https://ishakbensadok.github.io/Leon-Template/',
     gitHubLink: 'https://github.com/ishakbensadok/Leon-Template',
+    details:
+      'This was the first website I made on my own, when I was learning HTML and CSS. It was a simple template, but it really helped me get better at using HTML and CSS.',
   },
   {
     id: 2,
@@ -56,6 +64,8 @@ export const PROJECTS_INFORMATION = [
     year: 2022,
     websiteLink: 'https://ishakbensadok.github.io/kasper-Template/',
     gitHubLink: 'https://github.com/ishakbensadok/kasper-Template',
+    details:
+      'This was the second website I created by myself. While this template posed a slight challenge, it played a significant role in improving my HTML and CSS skills.',
   },
   {
     id: 3,
@@ -69,6 +79,8 @@ export const PROJECTS_INFORMATION = [
     year: 2022,
     websiteLink: 'https://ishakbensadok.github.io/Template-Three/',
     gitHubLink: 'https://github.com/ishakbensadok/Template-Three',
+    details:
+      'This was my third website that I built on my own. This template taught me a lot and showed me how much I could do with just HTML and CSS. I had a great time creating it.',
   },
 
   {
@@ -87,6 +99,8 @@ export const PROJECTS_INFORMATION = [
     year: 2023,
     websiteLink: 'https://ishakbensadok.github.io/TrailFlix/',
     gitHubLink: 'https://github.com/ishakbensadok/TrailFlix',
+    details:
+      'This became my fourth self-built website, designed by me. It was also my first time incorporating JavaScript. I constructed this site to become comfortable with utilizing third-party APIs, and the journey of building it was truly rewarding',
   },
   {
     id: 5,
@@ -99,13 +113,14 @@ export const PROJECTS_INFORMATION = [
       <Icon id='sass' />,
       <Icon id='react' />,
     ],
-    desktopImg: '',
-    mobileImg: '',
-    desktopImgSmall: '',
-    mobileImgSmall: '',
+    desktopImg: `${desPng5}`,
+    mobileImg: `${mobPng5}`,
+    desktopImgSmall: `${desPng5Small}`,
+    mobileImgSmall: `${mobPng5Small}`,
     year: 2023,
     websiteLink: 'http://localhost:3000/',
     gitHubLink: 'http://localhost:3000/',
+    details: `This marks my fifth independently crafted and personally designed website. It's also my inaugural project utilizing React.js. I was truly astonished by the immense capabilities that React.js offers, allowing for the creation of powerful functionalities.`,
   },
 ];
 
