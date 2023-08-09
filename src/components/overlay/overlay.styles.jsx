@@ -8,7 +8,7 @@ export const OverlayWrapper = styled.div`
   z-index: 99;
   width: 100%;
   background: rgb(153 153 153 / 50%);
-  transition: all 0.2s;
+  transition: all 0.3s;
   &.hidden {
     visibility: hidden;
     z-index: -1;
