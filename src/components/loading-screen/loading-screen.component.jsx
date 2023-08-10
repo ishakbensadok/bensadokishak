@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from 'react';
 
 import { useLocation } from 'react-router-dom';
 import { LoadingScreenWrapper } from './loading-screen.styles.jsx';
-let initailMessage = 'Hi, ❤';
+let initailMessage = `Hi ◠‿◠`;
 
 const LoadingScreen = () => {
   const [loading, setLoading] = useState(true);
