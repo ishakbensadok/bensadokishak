@@ -13,9 +13,11 @@ const Menu = () => {
     setIsMenuOpen(!isMenuOpen);
     setIsFixMenuVisible(true);
   };
-
   return (
-    <MenuIcon onClick={handleClick} className={`${isMenuOpen ? 'extend' : ''}`}>
+    <MenuIcon
+      onClick={handleClick}
+      className={`hoverable ${isMenuOpen ? 'extend' : ''}`}
+    >
       <span></span>
       <span></span>
       <span></span>
