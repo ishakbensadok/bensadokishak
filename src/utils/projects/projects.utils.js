@@ -119,7 +119,7 @@ export const PROJECTS_INFORMATION = [
     mobileImgSmall: `${mobPng5Small}`,
     year: 2023,
     websiteLink: 'https://spontaneous-strudel-6746ad.netlify.app',
-    gitHubLink: '',
+    gitHubLink: 'https://github.com/ishakbensadok/bensadokishak',
     details: `This marks my fifth independently crafted and personally designed website. It's also my inaugural project utilizing React.js. I was truly astonished by the immense capabilities that React.js offers, allowing for the creation of powerful functionalities.`,
   },
 ];
