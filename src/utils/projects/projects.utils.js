@@ -118,8 +118,8 @@ export const PROJECTS_INFORMATION = [
     desktopImgSmall: `${desPng5Small}`,
     mobileImgSmall: `${mobPng5Small}`,
     year: 2023,
-    websiteLink: 'http://localhost:3000/',
-    gitHubLink: 'http://localhost:3000/',
+    websiteLink: 'https://spontaneous-strudel-6746ad.netlify.app',
+    gitHubLink: '',
     details: `This marks my fifth independently crafted and personally designed website. It's also my inaugural project utilizing React.js. I was truly astonished by the immense capabilities that React.js offers, allowing for the creation of powerful functionalities.`,
   },
 ];
