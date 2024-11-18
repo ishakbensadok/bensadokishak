@@ -20,7 +20,7 @@ const Hero = () => {
       <HeroContent>
         <img src={`${greetingPng}`} />
         <Title>
-          <MyName>I'm ishak bensadok</MyName>
+          <MyName>I'm ishak bn</MyName>
           <br />
           <Role> A front-end web developer</Role>
         </Title>
